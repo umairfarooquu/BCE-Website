@@ -1,0 +1,12 @@
+body{
+    background: #011121;
+    font-family: sans-serif;
+
+}
+.insurence li:hover{
+    background-color: rgb(121, 195, 195);
+}
+.smalltext{
+    font-size: small;
+    color: grey;
+}

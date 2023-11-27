@@ -1,0 +1,64 @@
+.herosection{
+    background-image: url(../Assets/images/world\ blob.jpg);
+    width: 100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.homebutton{
+    background-color: inherit;
+    border: 2px solid rgb(199, 199, 199);
+    font-size: small;
+    cursor: pointer;
+}
+.herosection h1{
+    font-weight: bold;
+}
+.partner{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.newpart{
+    line-height: 0.1;
+}
+.homebody{
+    background-color:rgb(235, 244, 252)
+}
+.trucking{
+background-color: #011120;
+color:white;
+}
+.imgcontainer{
+    position: relative;
+}
+.imgcontainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #212123; /* Blue color */
+    opacity: 0.9; /* Adjust the opacity as needed */
+    mix-blend-mode: multiply; /* This blend mode combines the image with the blue color */
+}
+.phonebox{
+    background-color: rgb(18, 18, 44);
+width: 250px;
+padding-left: 10px;
+padding-bottom: 20px;
+padding-top: 20px;
+border: 1px solid rgb(54, 54, 102);
+border-radius: 10px;
+}
+.leftbutton:hover{
+    background-color: black;
+    color: white;
+}
+.leftbutton{
+    background-color:white;
+    border-radius: 50%;
+    border: 2px solid black;
+    font-weight: bold;
+}

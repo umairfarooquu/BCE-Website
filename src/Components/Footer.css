@@ -1,0 +1,18 @@
+
+
+.maincontainer{
+    height: auto;
+ list-style: none;
+}
+.bolanos{
+    color: white;
+    font-size:xx-large;
+    position: relative;
+    bottom: 38px;
+}
+.commercial{
+    font-size: x-small;
+    color: white;
+    position: relative;
+    bottom: 42px;
+}
